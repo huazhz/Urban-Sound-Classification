@@ -6,6 +6,8 @@ The main idea is to make a spectrogram from each WAV file and to address the pro
 
 Based on Inception, a pre-trained CNN which was trained to classify 1,000 classes of the Imagenet dataset, I trained my model to classify spectrograms into 10 different sound sources.
 
+A [Python notebook] () summarizing the work.
+
 # Dataset
 The UrbanSound8k dataset used for model training, can be downloaded from the following [[link]](https://urbansounddataset.weebly.com/urbansound8k.html)
 
