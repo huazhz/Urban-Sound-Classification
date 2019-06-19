@@ -1,5 +1,4 @@
-# Urban Sound classification
-Classification of UrbanSound8K dataset using transfer learning
+# Classification of UrbanSound8K dataset using transfer learning
 
 In this project, I'll show how I used a pre-trained model to classify audio samples into 10 different categories.
 
@@ -12,6 +11,6 @@ The UrbanSound8k dataset used for model training, can be downloaded from the fol
 
 # Main code
 
-My retrain.py is based on tensorflow script which cab ne downloaded using:   
+My retrain.py is based on a tensorflow script which cab be downloaded using:   
   curl -O 
 https://raw.githubusercontent.com/tensorflow/tensorflow/r1.1/tensorflow/examples/image_retraining/retrain.py
