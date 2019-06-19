@@ -12,5 +12,6 @@ The UrbanSound8k dataset used for model training, can be downloaded from the fol
 
 # Main code
 
-My retrain.py is based on tensorflow script which cab ne downloaded using:
-curl -O https://raw.githubusercontent.com/tensorflow/tensorflow/r1.1/tensorflow/examples/image_retraining/retrain.py
+My retrain.py is based on tensorflow script which cab ne downloaded using:   
+  curl -O 
+https://raw.githubusercontent.com/tensorflow/tensorflow/r1.1/tensorflow/examples/image_retraining/retrain.py
