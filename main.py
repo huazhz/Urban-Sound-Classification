@@ -11,7 +11,7 @@ import wav_to_png
 import subprocess
 
 # Create spectrograms
-wav_to_png.my_main()
+wav_to_png.createSpectrograms(['mel', 'raw'])
 
 #  retrain.py was executed through command line with those arguments:
 
