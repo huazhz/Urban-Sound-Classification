@@ -89,7 +89,7 @@ from tensorflow.python.framework import tensor_shape
 from tensorflow.python.platform import gfile
 from tensorflow.python.util import compat
 
-##DY My imports
+## Doron's imports
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 from sklearn.metrics import f1_score
@@ -830,8 +830,8 @@ def augment_data(file_name, n_aug_files): ##DY augment data by channel separatio
                 flag += 1
                 print(flag)
             else:
-                get_mel_spect(y1, sr_stero, my_label, c1_base_name[:-4])
-                get_mel_spect(y2, sr_stero, my_label, c2_base_name[:-4])
+                create_mel_spect(y1, sr_stero, my_label, c1_base_name[:-4])
+                create_mel_spect(y2, sr_stero, my_label, c2_base_name[:-4])
     if to_append:
         n_aug_files += 2
     return n_aug_files
